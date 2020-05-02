@@ -1,0 +1,82 @@
+html {
+  font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #DBDBDB;
+}
+
+body {
+  //width: 600px;
+  margin: 0 auto;
+  //margin-top: 100px;
+  background-color: #F4F4F4;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 10px;
+  padding: 20px 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px 0;
+  text-align: left;
+}
+
+
+#normalText {
+    width: 160px;
+    height: 100px;
+}
+
+#simpleText {
+    width: 160px;
+    height: 100px;
+}
+
+#translatePanel {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#menuBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#bottomBar {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 10px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
